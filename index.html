@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" integrity="sha512-fw7f+TcMjTb7bpbLJZlP8g2Y4XcCyFZW8uy8HsRZsH/SwbMw0plKHFHr99DN3l04VsYNwvzicUX/6qurvIxbxw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="burger.css">
+  <title>Cicada's Portfolio</title>
+</head>
+<body>
+   <div id="tsparticles"></div>
+  <header>
+    <div class="container mt-5">
+      <div class="container d-flex justify-content-center align-items-center mt-5 ">
+       <img id="logo-image" src="./images/logo.png" alt="logo">
+      </div>
+    </div>
+
+    <nav id="site-nav" class="navbar navbar-expand-lg">
+      <div class="container-fluid justify-content-end me-5 p-5">
+        <div class="container ms-5 align-items-center">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+        <a href="#" id="logo">Cicada Dev | Project V5 (FINAL)</a>
+        </li>
+        </ul>
+        </div>
+
+        <button class="gold-burger" aria-controls="gold-menu" aria-expanded="false" aria-label="Menu">
+          <span class="gold-bar"></span>
+          <span class="gold-bar"></span>
+          <span class="gold-bar"></span>
+        </button>
+        <ul id="gold-menu" class="navbar-nav gap-5 gold-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link active me-5">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <main>
+      <section class="container-fluid min-vh-100 d-flex align-items-center">
+        <div class="row w-100 align-items-center">
+          <div class="col-md-6 d-flex justify-content-center p-4">
+            <div class="image-bg mb-5">
+              <img src="./images/Screenshot_2.png" class=" img-fluid rounded-pill hero-img" alt="Cicada">
+            </div>
+          </div>
+          <div class="col-md-6 d-flex flex-column justify-content-center px-5 text-center text-md-start gap-5">
+            <h1 id="hero-title" class="display-1 fw-bold title mt-5">Hi, It's <span id="cicada">Cicada</span></h1>
+            <h2 id="hero-title2" class="display-2 fw-bold title mb-0">I'm a <span id="web-dev">Web Developer</span></h2>
+            <p class="lead mb-5 text">
+              I’m a developer passionate about creating modern,<br/> functional, and aesthetic web experiences. 
+              Clean code,<br/> strong design, and seamless user experience are my focus.
+            </p>
+            <div class="d-flex gap-3 justify-content-center justify-content-md-start mb-4">
+              <a href="https://github.com/xec412" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://discord.com/users/371623648324485120" target="_blank"><i class="fa-brands fa-discord"></i></a>
+              <a href="https://www.tiktok.com/@xec.w" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="https://linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section id="services">
+    <div class="container">
+    <h2 id="service-title" class="text-center fw-bold mb-4">Services</h2>
+    <div class="row justify-content-between g-4">
+      <div class="col-12 col-md-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 id="front-title" class="h4 mb-2">Front-End Development</h3>
+            <p id="front-para" class="text">Pixel-perfect, responsive interfaces with clean, accessible code and modern tooling.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h3 id="web-title" class="h4 mb-2">Web Design</h3>
+            <p id="web-para" class="text">Elegant, user-first layouts that balance aesthetics, usability, and brand consistency.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="skills" class="container py-5">
+  <h2 id="skill-title" class="text-center fw-bold mb-4">Skills</h2>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center"><span id="langs">Languages</span></h3>
+          <ul class="list-unstyled mb-0">
+            <li class="text text-center">JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center"><span id="services-frontspan">Frontend</span></h3>
+          <ul class="list-unstyled mb-0">
+            <li class="text text-center">HTML, CSS, Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center"><span id=services-tools>Tools</span></h3>
+          <ul class="list-unstyled mb-0">
+            <li class="text text-center">Git, Figma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" class="container py-5">
+  <h2 id="project-title" class="text-center fw-bold mb-4"><span id="projects-title">Projects</span></h2>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center">
+            <span id="project-1">Birthday Party Project</span>
+          </h3>
+          <ul class="list-unstyled mb-0">
+            <li><a class="project-btn" href="./birthday.html" target="_blank">Browse it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center">
+            <span id="project-2">Portfolio Website Project V4.5</span>
+          </h3>
+          <ul class="list-unstyled mb-0">
+            <li><a class="project-btn" href="https://xec412.github.io/project-v4.5/" target="_blank">Browse it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h3 class="h2 mb-3 text-light text-center">
+            <span id="project-3">Portfolio Website Project V3</span>
+          </h3>
+          <ul class="list-unstyled mb-0">
+            <li><a class="project-btn" href="https://xec412.github.io/project-v3/" target="_blank">Browse it</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="container py-5">
+  <h2 class="text-center touch fw-bold mb-1">Get in Touch</h2>
+  <p class="text-center text mb-5">Tell me about your project — timeline, scope, and goals.</p>
+
+  <div class="row g-4 align-items-stretch">
+    <div class="col-12 col-lg-5">
+      <div class="h-100 p-4 border rounded-4">
+        <h3 class="h5 touch mb-3">Let’s build something great</h3>
+        <ul class="list-unstyled small text-muted mb-4">
+          <li class="mb-2 text">• Typical response within 24–48h</li>
+          <li class="mb-2 text">• Remote-friendly, contract or project-based</li>
+          <li class="mb-2 text">• Clean code, responsive design, and accessibility first</li>
+        </ul>
+        <div class="d-flex gap-3">
+          <a href="https://github.com/xec412" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github fa-lg"></i></a>
+          <a href="https://discord.com/users/371623648324485120" target="_blank" aria-label="Discord"><i class="fa-brands fa-discord fa-lg"></i></a>
+          <a href="https://www.tiktok.com/@xec.w" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+          <a href="https://linkedin" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-7">
+      <form id="contact-form" class="card shadow-sm border-0 h-100" action="#" method="post" enctype="multipart/form-data" novalidate>
+        <div class="card-body p-4 p-md-5">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Full Name</label>
+              <input id="name" name="name" type="text" class="form-control" placeholder="John Doe" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required>
+              <div class="invalid-feedback">Please provide a valid email.</div>
+            </div>
+
+            <div class="col-12">
+              <label for="subject" class="form-label">Subject</label>
+              <input id="subject" name="subject" type="text" class="form-control" placeholder="New website for my brand" required>
+              <div class="invalid-feedback">Please add a subject.</div>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label d-block">Project Type</label>
+              <div class="d-flex flex-wrap gap-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="type-frontend" name="type[]" value="Front-End">
+                  <label class="form-check-label" for="type-frontend">Front-End</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="type-design" name="type[]" value="Web Design">
+                  <label class="form-check-label" for="type-design">Web Design</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="type-landing" name="type[]" value="Landing Page">
+                  <label class="form-check-label" for="type-landing">Landing Page</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="budget" class="form-label">Budget</label>
+              <select id="budget" name="budget" class="form-select" required>
+                <option value="" selected disabled>Select budget</option>
+                <option value="under-500">$0–$500</option>
+                <option value="500-1500">$500–$1,500</option>
+                <option value="1500-3000">$1,500–$3,000</option>
+                <option value="3000-plus">$3,000+</option>
+              </select>
+              <div class="invalid-feedback">Pick a budget range.</div>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="deadline" class="form-label">Ideal Deadline</label>
+              <input id="deadline" name="deadline" type="date" class="form-control">
+            </div>
+
+            <div class="col-12">
+              <label for="message" class="form-label">Project Brief</label>
+              <textarea id="message" name="message" rows="5" class="form-control" placeholder="Scope, pages, references, features..." required></textarea>
+              <div class="invalid-feedback">Please add a brief.</div>
+            </div>
+
+            <div class="col-12">
+              <label for="attachment" class="form-label">Attachment (optional)</label>
+              <input id="attachment" name="attachment" type="file" class="form-control" accept=".pdf,.png,.jpg,.jpeg,.zip,.fig">
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="agree" required>
+                <label class="form-check-label" for="agree">I agree to the terms and privacy policy.</label>
+                <div class="invalid-feedback">You must agree before submitting.</div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-warning btn-lg w-100">Send Request</button>
+            </div>
+
+            <div class="col-12">
+              <div id="form-success" class="alert alert-success d-none mt-3" role="alert">
+                Thanks! Your message has been sent.
+              </div>
+              <div id="form-error" class="alert alert-danger d-none mt-3" role="alert">
+                Something went wrong. Please try again.
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2"></script>
+  <script src="particles.js"></script>
+  <!-- <script src="burger.js"></script> -->
+</body>
+</html>
